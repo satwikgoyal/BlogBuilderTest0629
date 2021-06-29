@@ -1,17 +1,16 @@
 ---
-title: "Instructor Name"
-image: "images/DACSS_Round_Network.png"
 links:
-  - label: LinkedIn
-    url: "https://linkedin.com/"
-  - label: Twitter
-    url: "https://twitter.com/"
-  - label: GitHub
-    url: "https://github.com/"
-  - label: Email
-    url: "mailto:example@email.com"
-output:
-  postcards::jolla
+- label: LinkedIn
+  url: https://linkedin.com/
+- label: Twitter
+  url: https://twitter.com/
+- label: GitHub
+  url: https://github.com/
+- label: Email
+  url: mailto:example@email.com
+output: postcards::jolla
+image: https://drive.google.com/uc?export=view&id=1Rz6CFvelUyoD7rn8Lf4Y1yjRk18xit0z
+title: Michael Jordan
 ---
  
 I am some sort of person, blah blah biography.
