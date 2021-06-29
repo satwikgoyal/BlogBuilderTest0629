@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+  <channel>
+    <title/>
+    <link>https://github.com/DACSS/dacss_course_website</link>
+    <atom:link href="https://github.com/DACSS/dacss_course_website/index.xml" rel="self" type="application/rss+xml"/>
+    <description>This is the course website for student work from DACSS 601 offered at UMass Amherst.
+</description>
+    <generator>Distill</generator>
+    <lastBuildDate>Wed, 31 Mar 2021 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Homework 2</title>
+      <dc:creator>Alex Hong</dc:creator>
+      <link>https://github.com/DACSS/dacss_course_website/posts/2021-03-31-homework-2</link>
+      <description>For the 2nd homework assignment, I reuse the Congressional dataset and plug my work into a markdown file.</description>
+      <category>homework 2</category>
+      <category>congress</category>
+      <category>alex hong</category>
+      <guid>https://github.com/DACSS/dacss_course_website/posts/2021-03-31-homework-2</guid>
+      <pubDate>Wed, 31 Mar 2021 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Student first post</title>
+      <dc:creator>John Smith</dc:creator>
+      <link>https://github.com/DACSS/dacss_course_website/posts/2021-03-25-student-first-post</link>
+      <description>Here is a plot I made with mtcars.</description>
+      <category>scatterplot</category>
+      <guid>https://github.com/DACSS/dacss_course_website/posts/2021-03-25-student-first-post</guid>
+      <pubDate>Thu, 25 Mar 2021 00:00:00 +0000</pubDate>
+      <media:content url="https://github.com/DACSS/dacss_course_website/posts/2021-03-25-student-first-post/student-first-post_files/figure-html5/unnamed-chunk-1-1.png" medium="image" type="image/png" width="1248" height="768"/>
+    </item>
+    <item>
+      <title>Welcome to DACCS 601</title>
+      <dc:creator>Nora Jones</dc:creator>
+      <link>https://github.com/DACSS/dacss_course_website/posts/welcome</link>
+      <description>Welcome to our new blog, DACCS 601. We hope you enjoy 
+reading what we have to say!</description>
+      <guid>https://github.com/DACSS/dacss_course_website/posts/welcome</guid>
+      <pubDate>Thu, 25 Mar 2021 00:00:00 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

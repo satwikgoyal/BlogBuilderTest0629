@@ -1,0 +1,143 @@
+
+/* base variables */
+
+/* Edit the CSS properties in this file to create a custom
+   Distill theme. Only edit values in the right column
+   for each row; values shown are the CSS defaults.
+   To return any property to the default,
+   you may set its value to: unset
+   All rows must end with a semi-colon.                      */
+
+/* Optional: embed custom fonts here with `@import`          */
+/* This must remain at the top of this file.                 */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+html {
+  /*-- Main font sizes --*/
+  --title-size:      45px;
+  --body-size:       1.06rem;
+  --code-size:       14px;
+  --aside-size:      12px;
+  --fig-cap-size:    13px;
+  /*-- Main font colors --*/
+  --title-color:     #881c1c;
+  --header-color:    rgba(0, 0, 0, 0.8);
+  --body-color:      rgba(0, 0, 0, 0.8);
+  --aside-color:     rgba(0, 0, 0, 0.6);
+  --fig-cap-color:   rgba(0, 0, 0, 0.6);
+  /*-- Specify custom fonts ~~~ must be imported above   --*/
+  --title-font:      'Open Sans', sans-serif;
+  --heading-font:    'Open Sans', sans-serif;
+  --mono-font:       'Open Sans', sans-serif;
+  --body-font:       'Open Sans', sans-serif;
+  --navbar-font:     'Lora', serif;  /* websites + blogs only */
+}
+
+/*-- ARTICLE METADATA --*/
+d-byline {
+  --heading-size:    0.6rem;
+  --heading-color:   rgba(0, 0, 0, 0.5);
+  --body-size:       0.8rem;
+  --body-color:      rgba(0, 0, 0, 0.8);
+}
+
+/*-- ARTICLE TABLE OF CONTENTS --*/
+.d-contents {
+  --heading-size:    18px;
+  --contents-size:   13px;
+}
+
+.posts-with-sidebar .posts-list {
+      width: 80%;
+}
+
+.posts-with-sidebar .posts-sidebar {
+      width: 15%;
+}
+
+/*-- ARTICLE APPENDIX --*/
+d-appendix {
+  --heading-size:    15px;
+  --heading-color:   rgba(0, 0, 0, 0.65);
+  --text-size:       0.8em;
+  --text-color:      rgba(0, 0, 0, 0.5);
+}
+
+/*-- WEBSITE HEADER + FOOTER --*/
+/* These properties only apply to Distill sites and blogs  */
+
+.distill-site-header {
+  --title-size:       22px;
+  --text-color:       rgba(255, 255, 255, 1);
+  --text-size:        18px;
+  --hover-color:      white;
+  --bkgd-color:       #881c1c;
+  line-height: 1.15 !important;
+}
+
+.distill-site-footer {
+  --text-color:       rgba(255, 255, 255, 0.8);
+  --text-size:        15px;
+  --hover-color:      white;
+  --bkgd-color:       #881c1c;
+}
+
+/*-- Additional custom styles --*/
+/* Add any additional CSS rules below */
+
+/* Logo sizing */
+.logo img {
+  vertical-align: 0% !important;
+  max-height: 50px !important; 
+  /*
+  width: 40px !important;
+  margin-bottom: -10px !important;*/
+}
+
+/* Categories / labels */
+.dt-tag {
+  color: #881c1c !important;
+}
+
+/* Navbar right links */
+.nav-right a {
+  font-family: 'Open Sans', sans-serif !important; 
+}
+
+/* This is an attempt to change sidebar, doesn't work */
+.sidebar {
+  width: 5%;
+}
+
+/* Index page title (coursename) */
+.index-title h1{
+  font-variant: small-caps;
+  text-align: center;
+  margin-top: 1em;
+  font-size: 2.2em;
+  color: #881c1c;
+}
+
+/* Index page subtitle (semester) */
+.index-title h2 {
+  text-align: center;
+  margin-bottom: 1em;
+  color: #881c1c;
+  font-weight: 200;
+}
+
+/* Size of user images */
+.rounded-circle {
+  width: 10rem;
+}
+
+/* Post titles */
+d-article h2 {
+  font-variant: small-caps;
+}
+
+/* Footer social media icons */
+.footer i {
+  margin-right: 5px;
+}
