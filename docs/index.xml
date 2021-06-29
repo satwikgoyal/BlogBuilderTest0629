@@ -12,16 +12,14 @@
       <link>https://github.com/DACSS/dacss_course_website</link>
     </image>
     <generator>Distill</generator>
-    <lastBuildDate>Thu, 25 Mar 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 29 Jun 2021 00:00:00 +0000</lastBuildDate>
     <item>
-      <title>Welcome to DACSS 601</title>
-      <dc:creator>Meredith Rolfe</dc:creator>
-      <link>https://github.com/DACSS/dacss_course_website/posts/welcome</link>
-      <description>Welcome to DACSS 601: Foundations of Data Science. We hope you enjoy 
-reading what we have to say!</description>
-      <category>welcome</category>
-      <guid>https://github.com/DACSS/dacss_course_website/posts/welcome</guid>
-      <pubDate>Thu, 25 Mar 2021 00:00:00 +0000</pubDate>
+      <title>Not a basket ball fan</title>
+      <dc:creator>O Neal</dc:creator>
+      <link>https://github.com/DACSS/dacss_course_website/posts/2021-06-29-not-a-basket-ball-fan</link>
+      <description>A short description of the post.</description>
+      <guid>https://github.com/DACSS/dacss_course_website/posts/2021-06-29-not-a-basket-ball-fan</guid>
+      <pubDate>Tue, 29 Jun 2021 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

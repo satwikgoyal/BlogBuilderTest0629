@@ -1,21 +1,19 @@
 [
   {
-    "path": "posts/welcome/",
-    "title": "Welcome to DACSS 601",
-    "description": "Welcome to DACSS 601: Foundations of Data Science. We hope you enjoy \nreading what we have to say!",
+    "path": "posts/2021-06-29-not-a-basket-ball-fan/",
+    "title": "Not a basket ball fan",
+    "description": "A short description of the post.",
     "author": [
       {
-        "name": "Meredith Rolfe",
-        "url": "http://umass.edu/sbs/dacss"
+        "name": "O Neal",
+        "url": {}
       }
     ],
-    "date": "2021-03-25",
-    "categories": [
-      "welcome"
-    ],
-    "contents": "\n\n\n\n",
+    "date": "2021-06-29",
+    "categories": [],
+    "contents": "\n1+1\nDistill is a publication format for scientific and technical writing, native to the web.\nLearn more about using Distill at https://rstudio.github.io/distill.\n\n\n\n",
     "preview": {},
-    "last_modified": "2021-06-29T15:32:59+05:30",
-    "input_file": "welcome.knit.md"
+    "last_modified": "2021-06-29T16:00:54+05:30",
+    "input_file": "not-a-basket-ball-fan.knit.md"
   }
 ]

@@ -1,13 +1,13 @@
 ---
-title: "Not a basket ball fan"
+title: Not a basket ball fan
 description: |
   A short description of the post.
 author: O Neal
-date: 2021-06-29
+date: '2021-06-29'
 output:
   distill::distill_article:
-    self_contained: false
-draft: true
+    self_contained: no
+draft: yes
 ---
 
 ```
