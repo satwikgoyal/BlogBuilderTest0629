@@ -1,0 +1,47 @@
+{
+  "articles": [
+    {
+      "path": "about.html",
+      "title": "About this course",
+      "author": [],
+      "contents": "\nThis is some information about DACSS and the course. Can be prefilled in with something interesting.\nCourse Instructor:\nMeredith Rolfe\n\n\n\n",
+      "last_modified": "2021-04-04T20:50:44-04:00"
+    },
+    {
+      "path": "index.html",
+      "title": "Student Submissions",
+      "author": [],
+      "contents": "\n\nDACSS 601: Foundations of Data Science\nSpring 2021\n\n\n\n\n\n\n",
+      "last_modified": "2021-04-04T20:50:48-04:00"
+    },
+    {
+      "path": "Max.html",
+      "title": "Max",
+      "author": [],
+      "contents": "\n\n          \n          \n          \n          \n          Data Analytics and Computational Social Science\n          \n          \n          About\n          Syllabus\n          Students\n          \n          \n          \n          ☰\n          \n          \n      \n        \n          \n            Max\n          \n          \n            \n              I am a Doggie Teaching Assistant. I like hanging out and getting pets while you work on R. I work hard to maintain extreme fluffiness.\n              \n              Hobbies:\n              Playing ball. Rolling in the grass. Long walks.\n              \n            \n            \n              I am a Doggie Teaching Assistant. I like hanging out and getting pets while you work on R. I work hard to maintain extreme fluffiness.\n              \n              Hobbies:\n              Playing ball. Rolling in the grass. Long walks.\n              \n            \n          \n\n          \n            \n              \n                  \n                    \n                      LinkedIn\n                    \n                  \n                \n                                \n                  \n                    \n                      Twitter\n                    \n                  \n                \n                                \n                  \n                    \n                      GitHub\n                    \n                  \n                \n                                \n                  \n                    \n                      Email\n                    \n                  \n                \n                              \n          \n\n          \n            \n              \n                                \n                  \n                    LinkedIn\n                  \n                \n                                \n                  \n                    Twitter\n                  \n                \n                                \n                  \n                    GitHub\n                  \n                \n                                \n                  \n                    Email\n                  \n                \n                              \n            \n          \n        \n      \n    \n\n    \n    \n    \n          \n          \n            \n          \n          \n          \n            \n              \n              \n              \n              \n              \n            \n          \n          \n          \n\n    \n  ",
+      "last_modified": "2021-04-04T20:50:49-04:00"
+    },
+    {
+      "path": "Rolfe.html",
+      "title": "Meredith Rolfe",
+      "author": [],
+      "contents": "\n\n          \n          \n          \n          \n          Data Analytics and Computational Social Science\n          \n          \n          About\n          Syllabus\n          Students\n          \n          \n          \n          ☰\n          \n          \n      \n        \n          \n            Meredith Rolfe\n          \n          \n            \n              I am some sort of person, blah blah biography.\n            \n            \n              I am some sort of person, blah blah biography.\n            \n          \n\n          \n            \n              \n                  \n                    \n                      LinkedIn\n                    \n                  \n                \n                                \n                  \n                    \n                      Twitter\n                    \n                  \n                \n                                \n                  \n                    \n                      GitHub\n                    \n                  \n                \n                                \n                  \n                    \n                      Email\n                    \n                  \n                \n                              \n          \n\n          \n            \n              \n                                \n                  \n                    LinkedIn\n                  \n                \n                                \n                  \n                    Twitter\n                  \n                \n                                \n                  \n                    GitHub\n                  \n                \n                                \n                  \n                    Email\n                  \n                \n                              \n            \n          \n        \n      \n    \n\n    \n    \n    \n          \n          \n            \n          \n          \n          \n            \n              \n              \n              \n              \n              \n            \n          \n          \n          \n\n    \n  ",
+      "last_modified": "2021-04-04T20:50:49-04:00"
+    },
+    {
+      "path": "students.html",
+      "title": "Students",
+      "author": [],
+      "contents": "\nJohn Smith\nAlex Hong\nMax\n\n\n\n",
+      "last_modified": "2021-04-04T20:50:50-04:00"
+    },
+    {
+      "path": "sync.html",
+      "title": "Sync",
+      "author": [],
+      "contents": "\nSimply run the following code below to sync up with the main repository.\n\n\n# Automate syncing a fork\n# Assumes user has Git installed\n# Guide retrieved from https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/syncing-a-fork\nmessage('Adding new remote upstream repo...')\nsystem('git remote add upstream https://github.com/DACSS/dacss_course_website.git')\n\nmessage('Fetching latest changes from main/upstream repository.')\nsystem('git fetch upstream')\n\nmessage('Switching to main branch.')\nsystem('git checkout main')\n\nmessage('Attempting to sync forked repo with main repo..')\nsystem('git merge upstream/main')\n\nmessage('Success! Your local repo is synced. Please commit and push any necessary changes.')\n\n\n\n\n\n\n",
+      "last_modified": "2021-04-04T20:50:52-04:00"
+    }
+  ],
+  "collections": ["posts/posts.json"]
+}

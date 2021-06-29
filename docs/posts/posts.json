@@ -1,0 +1,84 @@
+[
+  {
+    "path": "posts/2021-04-02-iris/",
+    "title": "iris",
+    "description": "The iris dataset",
+    "author": [
+      {
+        "name": "Hans Quiogue",
+        "url": {}
+      }
+    ],
+    "date": "2021-04-02",
+    "categories": [
+      "homework 3",
+      "iris",
+      "hans quiogue"
+    ],
+    "contents": "\nHere is the iris dataset\n\n\n\n\n\n\n",
+    "preview": "posts/2021-04-02-iris/iris_files/figure-html5/unnamed-chunk-1-1.png",
+    "last_modified": "2021-04-03T13:37:53-04:00",
+    "input_file": {},
+    "preview_width": 1248,
+    "preview_height": 768
+  },
+  {
+    "path": "posts/2021-03-31-homework-2/",
+    "title": "Homework 2",
+    "description": "For the 2nd homework assignment, I reuse the Congressional dataset and plug my work into a markdown file.",
+    "author": [
+      {
+        "name": "Alex Hong",
+        "url": {}
+      }
+    ],
+    "date": "2021-03-31",
+    "categories": [
+      "homework 2",
+      "congress",
+      "alex hong"
+    ],
+    "contents": "\nR Markdown\nFor the 2nd homework assignment, I reuse the Congressional dataset and plug my work into a markdown file.\n\n\nlibrary(readr)\nch <- read_csv(\"../DACSS601 Data/congressional_hearings.csv\")\n\n\n\nData Display and Writeup\n\n\n#columns and rows for the dataset\nc_col <- ncol(ch)\nc_row <- nrow(ch)\nyear_obs <- tail(table(ch$year))\na <- knitr::kable(year_obs, col.names = c(\"Year\", \"Frequency\"))\n\n\n\nThe Congressional Hearings dataset contains in existence, all House, Senate, and Joint committees, subcommittees, and select and special committees from 1947 to 2010. For this dataset, the number of variables in the Congressional dataset is 36 and the number of observations in the dataset is 100254.\nThe number of Congressional Hearings for the last five years can be seen below\nYear\nFrequency\n2012\n1206\n2013\n1448\n2014\n1256\n2015\n1421\n2016\n970\n2017\n424\n\n\n\n",
+    "preview": {},
+    "last_modified": "2021-04-02T18:17:09-04:00",
+    "input_file": {}
+  },
+  {
+    "path": "posts/2021-03-25-student-first-post/",
+    "title": "Student first post",
+    "description": "Here is a plot I made with mtcars.",
+    "author": [
+      {
+        "name": "John Smith",
+        "url": "https://example.com/norajones"
+      }
+    ],
+    "date": "2021-03-25",
+    "categories": [
+      "scatterplot"
+    ],
+    "contents": "\nViola!\n\n\n\n\n\n\n",
+    "preview": "posts/2021-03-25-student-first-post/student-first-post_files/figure-html5/unnamed-chunk-1-1.png",
+    "last_modified": "2021-04-02T18:17:09-04:00",
+    "input_file": {},
+    "preview_width": 1248,
+    "preview_height": 768
+  },
+  {
+    "path": "posts/welcome/",
+    "title": "Welcome to DACCS 601",
+    "description": "Welcome to our new blog, DACCS 601. We hope you enjoy \nreading what we have to say!",
+    "author": [
+      {
+        "name": "Nora Jones",
+        "url": "https://example.com/norajones"
+      }
+    ],
+    "date": "2021-03-25",
+    "categories": [],
+    "contents": "\n\n\n\n",
+    "preview": {},
+    "last_modified": "2021-04-02T18:17:09-04:00",
+    "input_file": {}
+  }
+]
